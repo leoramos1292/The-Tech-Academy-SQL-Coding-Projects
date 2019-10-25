@@ -10,7 +10,9 @@ INSERT INTO Borrower
 	('4188481700436262', 'Anna Jackson', 'Happy Valley, OR', '(503) 679-8246'),
 	('4668014616230575', 'Jes Jones', 'Tualatin, OR', '(503) 649-7349'),
 	('4424842350934027', 'Addison Martin', 'Portland, OR', '(503) 678-5496'),
-	('4964814484351580', 'Ava Parker', 'Oak Grove, OR', '(503) 357-4623')
+	('4964814484351580', 'Ava Parker', 'Oak Grove, OR', '(503) 357-4623'),
+	('4181827203392187', 'Grace Jones', 'Beaverton, OR', '(503) 357-1598'),
+	('4842487112027431', 'Emily Thompson', 'Hood River, OR', '(541) 378-2587')
 ;
 
 INSERT INTO Library_Branch 
@@ -206,3 +208,11 @@ INSERT INTO Book_Loans
 	(19, 4, '4668014616230575', '10/16/19', '11/16/19'),
 	(20, 3, '4308886204430311', '9/24/19', '10/24/19')
 ;
+
+Select * From Borrower;
+Select * From Library_Branch;
+Select * From Publisher;
+Select * From Books;
+Select * From Book_Copies;
+Select * From Book_Loans;
+Select * From Book_Authors;
